@@ -1,0 +1,17 @@
+{
+    "name": "danie1net0/yii-academy-clean-architecture",
+    "description": "Projeto da playlist de clean architecture da Yii Academy.",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*",
+        "spipu/html2pdf": "^5.2",
+        "guzzlehttp/psr7": "^2.0",
+      "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
